@@ -50,6 +50,7 @@ app.include_router(root_router)
 app.add_middleware(
 	CORSMiddleware,
 	allow_origins=[
+    "https://iskolardev.online",
 		"http://localhost:4200",
 		"http://127.0.0.1:4200",
 	],
